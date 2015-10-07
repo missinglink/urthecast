@@ -1,0 +1,19 @@
+{
+  "name": "urthecast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/urthecast.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/missinglink/urthecast.git"
+  },
+  "author": "Peter Johnson <missinglink>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/missinglink/urthecast/issues"
+  },
+  "homepage": "https://github.com/missinglink/urthecast#readme",
+  "dependencies": {
+    "superagent": "^1.4.0"
+  }
+}
