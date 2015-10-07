@@ -31,7 +31,7 @@ you can execute the `urthecast.v1.satellite_tracker()` function with the followi
 - `cb`: a callback function which accepts the arguments `(err, res)`
 
 ```javascript
-urthecast.v1.satellite_tracker( "/satellites/iss/orbit_points", {}, function( err, res ){
+urthecast.v1.satellite_tracker("/satellites/iss/orbit_points", {}, function(err,res){
   console.log( err, res.body )
 })
 ```
@@ -45,7 +45,7 @@ you can execute the `urthecast.v1.archive()` function with the following argumen
 - `cb`: a callback function which accepts the arguments `(err, res)`
 
 ```javascript
-urthecast.v1.archive( "/scenes", {}, function( err, res ){
+urthecast.v1.archive("/scenes", {}, function(err,res){
   console.log( err, res.body )
 })
 ```
@@ -59,7 +59,7 @@ you can execute the `urthecast.v1.consumers()` function with the following argum
 - `cb`: a callback function which accepts the arguments `(err, res)`
 
 ```javascript
-urthecast.v1.consumers( "/apps/me/aois", {}, function( err, res ){
+urthecast.v1.consumers("/apps/me/aois", {}, function(err,res){
   console.log( err, res.body )
 })
 ```
@@ -73,7 +73,7 @@ you can execute the `urthecast.v1.event_streams()` function with the following a
 - `cb`: a callback function which accepts the arguments `(err, res)`
 
 ```javascript
-urthecast.v1.event_streams( "/events", {}, function( err, res ){
+urthecast.v1.event_streams("/events", {}, function(err,res){
   console.log( err, res.body )
 })
 ```
@@ -87,7 +87,7 @@ you can execute the `urthecast.v1()` function with the following arguments:
 - `cb`: a callback function which accepts the arguments `(err, res)`
 
 ```javascript
-urthecast.v1( "/satellite_tracker/satellites/iss/orbit_points", {}, function( err, res ){
+urthecast.v1("/satellite_tracker/satellites/iss/orbit_points", {}, function(err,res){
   console.log( err, res.body )
 })
 ```
@@ -102,7 +102,7 @@ you can execute the `urthecast()` function directly with the following arguments
 - `cb`: a callback function which accepts the arguments `(err, res)`
 
 ```javascript
-urthecast( "/v1", "/satellite_tracker/satellites/iss/orbit_points", {}, function( err, res ){
+urthecast("/v1", "/satellite_tracker/satellites/iss/orbit_points", {}, function(err,res){
   console.log( err, res.body )
 })
 ```
